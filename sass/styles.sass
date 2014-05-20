@@ -1,3 +1,40 @@
 // customize bootstrap variables here:
 @import "variables"
+@import "footer"
+@import "navbar"
 @import "bootstrap"
+
+
+// General settings
+$body-bg: #ecf0f1
+body a
+  +transition($transition1)
+  &:hover,
+  &:focus
+    text-decoration: none
+
+.text-center
+  text-align: center
+
+
+// Hero section
+.hero
+  position:   relative
+  overflow:   hidden
+  padding:    1em 0 1em 0
+  text-align: center
+  color:      $text-color-inverse
+  min-height: 1em
+
+  background: url('../img/roadster_1.jpg') no-repeat 0 -5px
+  background-size: cover
+
+  border-bottom: 8px solid $brand-primary
+
+  h2
+    margin: 1em 0 1em 0
+
+  +media-md
+    padding: 10em 0 10em 0
+    background: url('../img/roadster_1.jpg') no-repeat 0 -60px
+    background-size: cover
