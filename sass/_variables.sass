@@ -1,5 +1,5 @@
 @import bootstrap/variables
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700)
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,600)
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700)
 
 // Override Bootstrap variables here (defaults from bootstrap-sass v3.1.1.1):
@@ -49,7 +49,8 @@ $link-hover-color:      darken($link-color, 15%)
 
 
 // Animation and transitions
-$transition1:            all 0.3s linear 
+$transition1:            all 0.3s linear
+$transition_none:        all 0s
 
 =transition($transition)
   -webkit-transition: $transition
@@ -67,13 +68,14 @@ $transition1:            all 0.3s linear
 //
 //## Font, line-height, and color for body text, headinsg, and more.
 
-$font-family-sans-serif:  'Lato', sans-serif
+$font-family-sans-serif:  'Open Sans', sans-serif
+$font-family-title-sans:  'Open Sans Condensed', sans-serif 
 // $font-family-serif:       Georgia, "Times New Roman", Times, serif
 //* Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 // $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace
 $font-family-base:        $font-family-sans-serif
 
-$font-size-base:          16px
+$font-size-base:          14px
 $font-size-large:         ceil(($font-size-base * 1.25)) // ~18px
 $font-size-small:         ceil(($font-size-base * 0.85)) // ~12px
 
