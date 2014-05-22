@@ -24,31 +24,31 @@ img.logotype {
 
 /* line 2, ../sass/_navbar.sass */
 img.logo {
-  width: 232px;
+  width: 160px;
   margin-top: -4px;
   -webkit-filter: drop-shadow(0 0 2px white);
   filter: drop-shadow(0 0 2px white);
 }
 
-/* line 9, ../sass/_navbar.sass */
+/* line 8, ../sass/_navbar.sass */
 .logo-wrapper {
   margin: 0 2em 0 0;
 }
 
-/* line 12, ../sass/_navbar.sass */
+/* line 11, ../sass/_navbar.sass */
 ul.nav {
   font-size: 17px;
   font-weight: 700;
   text-transform: uppercase;
-  margin: 0 0 1.4em 0;
+  margin: 0;
   padding: 1.4em 0 0.8em 0;
 }
-/* line 20, ../sass/_navbar.sass */
+/* line 19, ../sass/_navbar.sass */
 ul.nav li {
   padding: 0 1.2em;
   margin-bottom: 3px;
 }
-/* line 24, ../sass/_navbar.sass */
+/* line 23, ../sass/_navbar.sass */
 ul.nav li:hover, ul.nav li:focus {
   -webkit-transition: all 0s;
   -moz-transition: all 0s;
@@ -63,6 +63,10 @@ ul.nav li:hover, ul.nav li:focus {
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+}
+/* line 35, ../sass/_navbar.sass */
+.navbar .nav a {
+  margin: 10px 0 16px 0;
 }
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
