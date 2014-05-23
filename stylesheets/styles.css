@@ -41,7 +41,7 @@ ul.nav {
   font-weight: 700;
   text-transform: uppercase;
   margin: 0;
-  padding: 1.4em 0 0.8em 0;
+  padding: 1.2em 0 0.8em 0;
 }
 /* line 19, ../sass/_navbar.sass */
 ul.nav li {
@@ -64,9 +64,11 @@ ul.nav li:hover, ul.nav li:focus {
   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
 }
+
 /* line 35, ../sass/_navbar.sass */
-.navbar .nav a {
-  margin: 10px 0 16px 0;
+a.btn-navbar {
+  background: #186fa8;
+  color: white;
 }
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
