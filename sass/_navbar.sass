@@ -16,22 +16,33 @@ ul.nav
   margin:   0
   padding:  1.2em 0 0.8em 0
 
-  li
-    padding: 0 1.2em
+  li 
     margin-bottom: 3px
-
+    
     &:hover,
     &:focus
-      +transition($transition_none)
       margin-bottom: 0
-      border-bottom: 3px solid $brand-primary
 
+
+a.navlink
+  padding:        0 2em
+
+  &:hover,
+  &:focus
+    +transition($transition_none)
+    border-bottom: 3px solid $brand-primary
 
 .navbar
   -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.7)
   -moz-box-shadow: 0 0 4px rgba(0,0,0,0.7)
   box-shadow: 0 0 4px rgba(0,0,0,0.7)
 
+  opacity: 0.95
+
 a.btn-navbar
   background:   $brand-primary
   color:        $white
+
+  &:hover,
+  &:focus
+    +transition($transition_none)

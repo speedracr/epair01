@@ -45,30 +45,45 @@ ul.nav {
 }
 /* line 19, ../sass/_navbar.sass */
 ul.nav li {
-  padding: 0 1.2em;
   margin-bottom: 3px;
 }
-/* line 23, ../sass/_navbar.sass */
+/* line 22, ../sass/_navbar.sass */
 ul.nav li:hover, ul.nav li:focus {
+  margin-bottom: 0;
+}
+
+/* line 27, ../sass/_navbar.sass */
+a.navlink {
+  padding: 0 2em;
+}
+/* line 30, ../sass/_navbar.sass */
+a.navlink:hover, a.navlink:focus {
   -webkit-transition: all 0s;
   -moz-transition: all 0s;
   -o-transition: all 0s;
   transition: all 0s;
-  margin-bottom: 0;
   border-bottom: 3px solid #186fa8;
 }
 
-/* line 30, ../sass/_navbar.sass */
+/* line 35, ../sass/_navbar.sass */
 .navbar {
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+  opacity: 0.95;
 }
 
-/* line 35, ../sass/_navbar.sass */
+/* line 42, ../sass/_navbar.sass */
 a.btn-navbar {
   background: #186fa8;
   color: white;
+}
+/* line 46, ../sass/_navbar.sass */
+a.btn-navbar:hover, a.btn-navbar:focus {
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  transition: all 0s;
 }
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
@@ -7988,7 +8003,7 @@ body a:hover, body a:focus {
   text-align: center;
   color: white;
   min-height: 1em;
-  background: url("../img/roadster_1.jpg") no-repeat 0 -5px;
+  background: url("../img/hero.jpg") no-repeat 0 0;
   background-size: cover;
   border-bottom: 8px solid #186fa8;
 }
@@ -7999,8 +8014,8 @@ body a:hover, body a:focus {
 @media (min-width: 992px) {
   /* line 21, ../sass/styles.sass */
   .hero {
-    padding: 10em 0 10em 0;
-    background: url("../img/roadster_1.jpg") no-repeat 0 -60px;
+    padding: 10em 0 14em 0;
+    background: url("../img/hero.jpg") no-repeat 0/16px;
     background-size: cover;
   }
 }
