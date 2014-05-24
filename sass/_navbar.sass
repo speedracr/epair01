@@ -18,14 +18,13 @@ ul.nav
 
   li 
     margin-bottom: 3px
-    
+
     &:hover,
     &:focus
       margin-bottom: 0
 
-
 a.navlink
-  padding:        0 2em
+  margin:   0 0.6em
 
   &:hover,
   &:focus
@@ -39,10 +38,16 @@ a.navlink
 
   opacity: 0.95
 
-a.btn-navbar
-  background:   $brand-primary
-  color:        $white
+ul.nav
+  li
+    a.btn-navbar
+      background:       lighten($brand-primary, 10%)
+      color:            $white
+      letter-spacing:   0.02em 
+      margin:           2px 0 0 1.6em
+      border-radius:    2px
 
-  &:hover,
-  &:focus
-    +transition($transition_none)
+      &:hover,
+      &:focus
+        +transition($transition_none)
+        background:   darken($brand-primary, 13.5%)
