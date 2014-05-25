@@ -18,8 +18,8 @@ footer a:hover, footer a:focus {
 
 /* line 15, ../sass/_footer.sass */
 img.logotype {
-  margin: 4em 0 0 -10px;
-  width: 200px;
+  margin: 2em 0 1em;
+  width: 120px;
 }
 
 /* line 2, ../sass/_navbar.sass */
@@ -8022,4 +8022,23 @@ body a:hover, body a:focus {
     background: url("../img/hero.jpg") no-repeat 0/16px;
     background-size: cover;
   }
+}
+
+/* line 42, ../sass/styles.sass */
+figcaption {
+  position: absolute;
+  bottom: 4px;
+  right: 2em;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 0.1em 0.5em;
+  background: rgba(0, 0, 0, 0.1);
+}
+/* line 51, ../sass/styles.sass */
+figcaption a {
+  color: rgba(255, 255, 255, 0.9);
+}
+/* line 53, ../sass/styles.sass */
+figcaption a:hover, figcaption a:focus {
+  color: white;
 }
