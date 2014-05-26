@@ -21,8 +21,7 @@ body a
 .hero
   position:   relative
   overflow:   hidden
-  padding:    1em 0 1em 0
-  text-align: center
+  padding:    4em 0
   color:      $text-color-inverse
   min-height: 1em
 
@@ -31,13 +30,23 @@ body a
 
   border-bottom: 8px solid $brand-primary
 
-  h2
-    margin: 1em 0 1em 0
-
   +media-md
-    padding: 10em 0 14em 0
-    background: url('../img/hero.jpg') no-repeat 0 /16px
+    padding: 16em 0
+    background: url('../img/hero.jpg') no-repeat 0 -16px
     background-size: cover
+
+.insetbox
+  background:   $white 
+  padding:      0.8em
+  margin-top:   -6em
+
+  h2
+    color:            $gray_dark
+    margin:           0.6em 0
+    text-transform:   uppercase
+    font-size:        28px
+    font-weight:      300
+    text-shadow:      $blackoutline
 
 figcaption
   position:     absolute

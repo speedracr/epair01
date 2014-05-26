@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,600);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700,600);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
 /* line 2, ../sass/_footer.sass */
 footer {
   padding: 2em 0 0.4em;
@@ -8003,28 +8003,39 @@ body a:hover, body a:focus {
 .hero {
   position: relative;
   overflow: hidden;
-  padding: 1em 0 1em 0;
-  text-align: center;
+  padding: 4em 0;
   color: white;
   min-height: 1em;
   background: url("../img/hero.jpg") no-repeat 0 0;
   background-size: cover;
   border-bottom: 8px solid #186fa8;
 }
-/* line 34, ../sass/styles.sass */
-.hero h2 {
-  margin: 1em 0 1em 0;
-}
 @media (min-width: 992px) {
   /* line 21, ../sass/styles.sass */
   .hero {
-    padding: 10em 0 14em 0;
-    background: url("../img/hero.jpg") no-repeat 0/16px;
+    padding: 16em 0;
+    background: url("../img/hero.jpg") no-repeat 0 -16px;
     background-size: cover;
   }
 }
 
-/* line 42, ../sass/styles.sass */
+/* line 38, ../sass/styles.sass */
+.insetbox {
+  background: white;
+  padding: 0.8em;
+  margin-top: -6em;
+}
+/* line 43, ../sass/styles.sass */
+.insetbox h2 {
+  color: #141414;
+  margin: 0.6em 0;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 300;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+}
+
+/* line 51, ../sass/styles.sass */
 figcaption {
   position: absolute;
   bottom: 4px;
@@ -8034,11 +8045,11 @@ figcaption {
   padding: 0.1em 0.5em;
   background: rgba(0, 0, 0, 0.1);
 }
-/* line 51, ../sass/styles.sass */
+/* line 60, ../sass/styles.sass */
 figcaption a {
   color: rgba(255, 255, 255, 0.9);
 }
-/* line 53, ../sass/styles.sass */
+/* line 62, ../sass/styles.sass */
 figcaption a:hover, figcaption a:focus {
   color: white;
 }
