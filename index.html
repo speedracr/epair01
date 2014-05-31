@@ -13,6 +13,8 @@
     <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114" />
     <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144x144.png" />    
     <script src="js/vendor/modernizr.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <!--[if lt IE 7]>
     <link rel="stylesheet" type="text/css" href="/fileadmin/templates/main/Resources/Public/src/css/ie7.css" media="all">
@@ -47,8 +49,18 @@
             <li><a href="#" class="btn-navbar">Join!</a></li>            
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#" class="navlink">About</a></li>
-            <li><a href="#" class="navlink">Blog</a></li>
+            <li class="dropdown border-bottom">
+              <a href="#" class="navlink dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Partnerships</a></li>
+                <li><a href="#">Alumni stories</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </li>
+
+            <li class="border-bottom"><a href="http://blog.epair.org" class="navlink">Blog</a></li>
           </ul>
             </li>
           </ul>
@@ -69,7 +81,7 @@
     <section class="subhero">
       <div class="container">
         <div class="row">
-          <div class="col-md-5 col-md-offset-1">
+          <div class="col-md-7 col-md-offset-1 boxwrapper">
             <div class="insetbox">
               <h2>Europe's young Asia network.</h2>
             </div>
