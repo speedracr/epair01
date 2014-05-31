@@ -26,8 +26,7 @@ ul.nav
 a.navlink
   margin:   0 0.6em
 
-  &:hover,
-  &:focus
+  &:hover
     +transition($transition_none)
     border-bottom: 3px solid $brand-primary
 
@@ -36,6 +35,13 @@ li.open > a.navlink
 
 ul.dropdown-menu > li > a
   margin-bottom:    0
+  text-transform:   none
+  +transition($transition_none)
+
+  &:hover,
+  &:focus
+    background:   darken($brand-primary, 13.5%)
+    color:        $white
 
 .navbar
   -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.7)

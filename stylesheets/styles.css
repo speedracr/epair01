@@ -16,10 +16,31 @@ footer a:hover, footer a:focus {
   color: white;
 }
 
-/* line 15, ../sass/_footer.sass */
+/* line 14, ../sass/_footer.sass */
 img.logotype {
   margin: 2em 0 1em;
   width: 120px;
+}
+
+/* line 18, ../sass/_footer.sass */
+dd {
+  margin: 3px 0;
+}
+
+/* line 2, ../sass/_content.sass */
+.contentsubheader {
+  margin: 1.2em 0 0 0;
+}
+
+/* line 5, ../sass/_content.sass */
+.contentbody {
+  text-align: justify;
+  margin: 0 0 0.8em;
+}
+
+/* line 9, ../sass/_content.sass */
+.contentlink {
+  font-weight: 700;
 }
 
 /* line 2, ../sass/_navbar.sass */
@@ -57,7 +78,7 @@ a.navlink {
   margin: 0 0.6em;
 }
 /* line 29, ../sass/_navbar.sass */
-a.navlink:hover, a.navlink:focus {
+a.navlink:hover {
   -webkit-transition: all 0s;
   -moz-transition: all 0s;
   -o-transition: all 0s;
@@ -65,17 +86,27 @@ a.navlink:hover, a.navlink:focus {
   border-bottom: 3px solid #186fa8;
 }
 
-/* line 34, ../sass/_navbar.sass */
+/* line 33, ../sass/_navbar.sass */
 li.open > a.navlink {
   border-bottom: 0;
 }
 
-/* line 37, ../sass/_navbar.sass */
+/* line 36, ../sass/_navbar.sass */
 ul.dropdown-menu > li > a {
   margin-bottom: 0;
+  text-transform: none;
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  transition: all 0s;
+}
+/* line 41, ../sass/_navbar.sass */
+ul.dropdown-menu > li > a:hover, ul.dropdown-menu > li > a:focus {
+  background: #0f476c;
+  color: white;
 }
 
-/* line 40, ../sass/_navbar.sass */
+/* line 46, ../sass/_navbar.sass */
 .navbar {
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
@@ -83,7 +114,7 @@ ul.dropdown-menu > li > a {
   opacity: 0.95;
 }
 
-/* line 49, ../sass/_navbar.sass */
+/* line 55, ../sass/_navbar.sass */
 ul.nav li a.btn-navbar {
   background: #1e8cd5;
   color: white;
@@ -91,7 +122,7 @@ ul.nav li a.btn-navbar {
   margin: 2px 0 0 1.6em;
   border-radius: 2px;
 }
-/* line 56, ../sass/_navbar.sass */
+/* line 62, ../sass/_navbar.sass */
 ul.nav li a.btn-navbar:hover, ul.nav li a.btn-navbar:focus {
   -webkit-transition: all 0s;
   -moz-transition: all 0s;
@@ -7993,28 +8024,28 @@ button.close {
     display: none !important;
   }
 }
-/* line 10, ../sass/styles.sass */
+/* line 11, ../sass/styles.sass */
 body a {
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
-/* line 12, ../sass/styles.sass */
+/* line 13, ../sass/styles.sass */
 body a:hover, body a:focus {
   text-decoration: none;
 }
 
-/* line 16, ../sass/styles.sass */
+/* line 17, ../sass/styles.sass */
 .text-center {
   text-align: center;
 }
 
-/* line 19, ../sass/styles.sass */
+/* line 20, ../sass/styles.sass */
 .caret {
   margin-top: -3px;
 }
 
-/* line 24, ../sass/styles.sass */
+/* line 25, ../sass/styles.sass */
 .hero {
   position: relative;
   overflow: hidden;
@@ -8026,7 +8057,7 @@ body a:hover, body a:focus {
   border-bottom: 8px solid #186fa8;
 }
 @media (min-width: 992px) {
-  /* line 24, ../sass/styles.sass */
+  /* line 25, ../sass/styles.sass */
   .hero {
     padding: 16em 0;
     background: url("../img/hero.jpg") no-repeat 0 -16px;
@@ -8034,7 +8065,7 @@ body a:hover, body a:focus {
   }
 }
 
-/* line 42, ../sass/styles.sass */
+/* line 43, ../sass/styles.sass */
 .boxwrapper {
   margin-top: -3em;
   background: rgba(255, 255, 255, 0.9);
@@ -8042,12 +8073,12 @@ body a:hover, body a:focus {
   padding-right: 0;
 }
 
-/* line 48, ../sass/styles.sass */
+/* line 49, ../sass/styles.sass */
 .insetbox {
   padding: 0.6em 0.6em 0.6em 0;
   border-bottom: #141414 1px solid;
 }
-/* line 53, ../sass/styles.sass */
+/* line 54, ../sass/styles.sass */
 .insetbox h2 {
   color: #141414;
   padding: 0 1.2em 0 0;
@@ -8057,7 +8088,7 @@ body a:hover, body a:focus {
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
 }
 
-/* line 61, ../sass/styles.sass */
+/* line 62, ../sass/styles.sass */
 figcaption {
   position: absolute;
   bottom: 4px;
@@ -8067,11 +8098,11 @@ figcaption {
   padding: 0.1em 0.5em;
   background: rgba(0, 0, 0, 0.1);
 }
-/* line 70, ../sass/styles.sass */
+/* line 71, ../sass/styles.sass */
 figcaption a {
   color: rgba(255, 255, 255, 0.9);
 }
-/* line 72, ../sass/styles.sass */
+/* line 73, ../sass/styles.sass */
 figcaption a:hover, figcaption a:focus {
   color: white;
 }
