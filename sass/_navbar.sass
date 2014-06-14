@@ -64,3 +64,8 @@ img.logo
         &:focus
           +transition($transition_none)
           background:   darken($brand-primary, 13.5%)
+
+@media screen and (max-width: $screen-sm-max)
+  .navbar-no-collapse
+    padding-top:    2em
+    margin:         0 -15px
