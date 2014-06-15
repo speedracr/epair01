@@ -29,16 +29,27 @@ dd {
 
 /* line 2, ../sass/_content.sass */
 .contentsubheader {
-  margin: 1.2em 0 0 0;
+  margin: 1.2em 0 0.6em;
+  font-size: 21px;
 }
 
-/* line 5, ../sass/_content.sass */
+/* line 6, ../sass/_content.sass */
+img.subheaderimg {
+  width: 300px;
+  margin: 2em 0 0 2em;
+  border: 4px solid white;
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+/* line 12, ../sass/_content.sass */
 .contentbody {
   text-align: justify;
   margin: 0 0 0.8em;
 }
 
-/* line 9, ../sass/_content.sass */
+/* line 16, ../sass/_content.sass */
 .contentlink {
   font-weight: 700;
 }

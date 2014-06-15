@@ -66,9 +66,9 @@ $blackoutline:    0 0 2px rgba(0, 0, 0, 0.6)
 $shadow1:         0 0 20px rgba(0,0,0,0.4)
 
 =box-shadow($shadow)
-  -moz-box-shadow: $shadow1
-  -webkit-box-shadow: $shadow1
-  box-shadow: $shadow1
+  -moz-box-shadow: $shadow
+  -webkit-box-shadow: $shadow
+  box-shadow: $shadow
 
 
 //* Global textual link color.
@@ -318,8 +318,8 @@ $screen-xs-max:              ($screen-sm-min - 1)
 $screen-sm-max:              ($screen-md-min - 1)
 $screen-md-max:              ($screen-lg-min - 1)
 
-=media-width-below($max
-)  @media (max-width: $max)
+=media-width-below($max)  
+  @media (max-width: $max)
     @content
 
 =media-width-between($min, $max)
@@ -807,7 +807,7 @@ $nav-link-padding:                          10px 1.6em
 //##
 
 // $carousel-text-shadow:                        0 1px 2px rgba(0,0,0,.6)
-carousel
+// carousel
 // $-control-color:                      #fff
 // $carousel-control-width:                      15%
 // $carousel-control-opacity:                    .5
