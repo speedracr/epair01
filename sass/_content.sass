@@ -1,7 +1,14 @@
-// Content section
-.contentsubheader
-  margin:       1.2em 0 0.6em
+// Section header
+.header
+  margin:       1.8em 0 0.6em
   font-size:    21px
+
+
+// Content section
+.sectionheader
+  text-transform:   uppercase
+  font-size:        18px
+  font-weight:      700
 
 img.subheaderimg
   width:        300px
@@ -15,3 +22,37 @@ img.subheaderimg
 
 .contentlink
   font-weight:  700
+
+
+// Newsletter section
+.newslettersection
+  margin:           1em 0 0.8em
+
+.cta
+  border-bottom:    4px solid $brand-secondary
+  padding-bottom:   15px
+  margin-bottom:    2em
+
+.emailicon
+  padding-right:    1.6em
+
+.mailchimp_email
+  height:           2.4em
+  width:            40%
+  border-radius:    2px
+  outline:          none
+  padding:          0 8px
+  border:           1px solid $gray-light
+
+input.mailchimp_submit
+  background:       $brand-secondary
+  color:            $white
+  letter-spacing:   0.02em
+  border-radius:    2px
+  font-weight:      700
+
+  &:hover,
+  &:focus
+    +transition($transition1)
+    background:   darken($brand-secondary, 15%)
+    color:        $white
