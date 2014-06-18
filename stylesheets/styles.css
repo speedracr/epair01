@@ -8136,7 +8136,15 @@ body a:hover, body a:focus {
   }
 }
 
-/* line 43, ../sass/styles.sass */
+/* line 42, ../sass/styles.sass */
+.pagetop {
+  padding: 4em 0;
+  background: url("../img/hero.jpg") no-repeat 0 0;
+  background-size: cover;
+  border-bottom: 8px solid #186fa8;
+}
+
+/* line 49, ../sass/styles.sass */
 .boxwrapper {
   margin-top: -3em;
   background: rgba(255, 255, 255, 0.9);
@@ -8144,12 +8152,12 @@ body a:hover, body a:focus {
   padding-right: 0;
 }
 
-/* line 49, ../sass/styles.sass */
+/* line 55, ../sass/styles.sass */
 .insetbox {
   padding: 0.6em 0.6em 0.6em 0;
   border-bottom: #141414 1px solid;
 }
-/* line 54, ../sass/styles.sass */
+/* line 60, ../sass/styles.sass */
 .insetbox h2 {
   color: #141414;
   padding: 0 1.2em 0 0;
@@ -8159,7 +8167,7 @@ body a:hover, body a:focus {
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
 }
 
-/* line 62, ../sass/styles.sass */
+/* line 68, ../sass/styles.sass */
 figcaption {
   position: absolute;
   bottom: 4px;
@@ -8169,11 +8177,22 @@ figcaption {
   padding: 0.1em 0.5em;
   background: rgba(0, 0, 0, 0.1);
 }
-/* line 71, ../sass/styles.sass */
+/* line 77, ../sass/styles.sass */
 figcaption a {
   color: rgba(255, 255, 255, 0.9);
 }
-/* line 73, ../sass/styles.sass */
+/* line 79, ../sass/styles.sass */
 figcaption a:hover, figcaption a:focus {
   color: white;
+}
+
+/* line 83, ../sass/styles.sass */
+.attribution {
+  margin: 0.4em 0;
+}
+
+/* line 86, ../sass/styles.sass */
+.caption {
+  font-size: 12px;
+  text-align: right;
 }
