@@ -81,11 +81,32 @@ figcaption
       color:    $white
 
 .attribution
-  margin:       0.4em 0
+  margin:       2em 0 1em
   
 .caption
   font-size:    12px
   text-align:   right
+
+.header
+  margin:       1.8em 0 0.6em 
+
+.link
+  margin:       2em 0
+  text-align:   center
+  a 
+    padding:        0.6em 3.2em
+    text-transform: uppercase
+    color:          $brand-primary
+    font-weight:    700
+    border-radius:  2px
+    border:         1px solid $brand-primary
+    +transition($transition_none)
+
+    &:hover,
+    &:active
+      background:   $brand-primary
+      color:        $white
+
 
 // Gradient
 // background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0.07) 26%, rgba(0,0,0,0.5) 71%, rgba(0,0,0,0.7) 100%)

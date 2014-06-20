@@ -1,14 +1,17 @@
 // Section header
-.header
-  margin:       1.8em 0 0.6em
-  font-size:    21px
 
 
 // Content section
-.sectionheader
+
+.sectionheader-up
   text-transform:   uppercase
-  font-size:        18px
-  font-weight:      700
+  font-size:        $font-size-large
+  font-weight:      700    
+
+.sectionheader 
+  font-size:        $font-size-base
+  font-weight:      700    
+  border-bottom:    1px solid $text-color
 
 img.subheaderimg
   width:        300px
@@ -19,6 +22,7 @@ img.subheaderimg
 .contentbody
   text-align:   justify
   margin:       0 0 0.8em
+  line-height:  1.6em
 
 .contentlink
   font-weight:  700
@@ -56,3 +60,19 @@ input.mailchimp_submit
     +transition($transition1)
     background:   darken($brand-secondary, 15%)
     color:        $white
+
+//
+// *****************
+// PAGES
+// *****************
+
+// Inline images
+img.contentimg
+  max-width:      100%
+  padding:        0.8em 0
+
+// Special styles
+.motto 
+  font-weight:    700
+  text-align:     left
+  padding:        0.4em 0

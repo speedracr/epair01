@@ -27,20 +27,21 @@ dd {
   margin: 3px 0;
 }
 
-/* line 2, ../sass/_content.sass */
-.header {
-  margin: 1.8em 0 0.6em;
-  font-size: 21px;
-}
-
-/* line 8, ../sass/_content.sass */
-.sectionheader {
+/* line 6, ../sass/_content.sass */
+.sectionheader-up {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
 }
 
-/* line 13, ../sass/_content.sass */
+/* line 11, ../sass/_content.sass */
+.sectionheader {
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 1px solid #141414;
+}
+
+/* line 16, ../sass/_content.sass */
 img.subheaderimg {
   width: 300px;
   margin: 2em 0 0 2em;
@@ -50,35 +51,36 @@ img.subheaderimg {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
-/* line 19, ../sass/_content.sass */
+/* line 22, ../sass/_content.sass */
 .contentbody {
   text-align: justify;
   margin: 0 0 0.8em;
+  line-height: 1.6em;
 }
 
-/* line 23, ../sass/_content.sass */
+/* line 27, ../sass/_content.sass */
 .contentlink {
   font-weight: 700;
 }
 
-/* line 28, ../sass/_content.sass */
+/* line 32, ../sass/_content.sass */
 .newslettersection {
   margin: 1em 0 0.8em;
 }
 
-/* line 31, ../sass/_content.sass */
+/* line 35, ../sass/_content.sass */
 .cta {
   border-bottom: 4px solid #d9534f;
   padding-bottom: 15px;
   margin-bottom: 2em;
 }
 
-/* line 36, ../sass/_content.sass */
+/* line 40, ../sass/_content.sass */
 .emailicon {
   padding-right: 1.6em;
 }
 
-/* line 39, ../sass/_content.sass */
+/* line 43, ../sass/_content.sass */
 .mailchimp_email {
   height: 2.4em;
   width: 40%;
@@ -88,7 +90,7 @@ img.subheaderimg {
   border: 1px solid #999999;
 }
 
-/* line 47, ../sass/_content.sass */
+/* line 51, ../sass/_content.sass */
 input.mailchimp_submit {
   background: #d9534f;
   color: white;
@@ -96,7 +98,7 @@ input.mailchimp_submit {
   border-radius: 2px;
   font-weight: 700;
 }
-/* line 54, ../sass/_content.sass */
+/* line 58, ../sass/_content.sass */
 input.mailchimp_submit:hover, input.mailchimp_submit:focus {
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
@@ -104,6 +106,19 @@ input.mailchimp_submit:hover, input.mailchimp_submit:focus {
   transition: all 0.3s linear;
   background: #b52b27;
   color: white;
+}
+
+/* line 70, ../sass/_content.sass */
+img.contentimg {
+  max-width: 100%;
+  padding: 0.8em 0;
+}
+
+/* line 75, ../sass/_content.sass */
+.motto {
+  font-weight: 700;
+  text-align: left;
+  padding: 0.4em 0;
 }
 
 /* line 2, ../sass/_navbar.sass */
@@ -8188,11 +8203,39 @@ figcaption a:hover, figcaption a:focus {
 
 /* line 83, ../sass/styles.sass */
 .attribution {
-  margin: 0.4em 0;
+  margin: 2em 0 1em;
 }
 
 /* line 86, ../sass/styles.sass */
 .caption {
   font-size: 12px;
   text-align: right;
+}
+
+/* line 90, ../sass/styles.sass */
+.header {
+  margin: 1.8em 0 0.6em;
+}
+
+/* line 93, ../sass/styles.sass */
+.link {
+  margin: 2em 0;
+  text-align: center;
+}
+/* line 96, ../sass/styles.sass */
+.link a {
+  padding: 0.6em 3.2em;
+  text-transform: uppercase;
+  color: #186fa8;
+  font-weight: 700;
+  border-radius: 2px;
+  border: 1px solid #186fa8;
+  -webkit-transition: all 0s;
+  -o-transition: all 0s;
+  transition: all 0s;
+}
+/* line 105, ../sass/styles.sass */
+.link a:hover, .link a:active {
+  background: #186fa8;
+  color: white;
 }
