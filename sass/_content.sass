@@ -73,6 +73,30 @@ img.contentimg
 
 // Special styles
 .motto 
-  font-weight:    700
-  text-align:     left
-  padding:        0.4em 0
+  font-weight:        700
+  text-align:         left
+  padding:            0.4em 0
+
+.sidebar
+  margin:             2.3em 0 0
+  padding:            0 1em 0 0
+
+.sidenav
+  list-style-type:    none
+  font-size:          16px
+  line-height:        1.4em
+
+  li.active
+    font-weight:      700
+
+    &:before
+      content:        '<span class="glyphicon glyphicon-chevron-right"></span>'
+
+  li 
+    margin:           0 0 0.8em
+    border-bottom:    1px solid $gray-lighter
+    padding:          0.3em 0.2em
+
+    &:hover,
+    &:active
+      background:       $gray-lighter
