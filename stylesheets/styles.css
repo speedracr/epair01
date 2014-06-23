@@ -139,7 +139,7 @@ img.contentimg {
 }
 /* line 92, ../sass/_content.sass */
 .sidenav li.active:before {
-  content: '<span class="glyphicon glyphicon-chevron-right"></span>';
+  content: "";
 }
 /* line 95, ../sass/_content.sass */
 .sidenav li {
