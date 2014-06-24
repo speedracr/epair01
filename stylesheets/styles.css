@@ -27,6 +27,14 @@ dd {
   margin: 3px 0;
 }
 
+/* line 21, ../sass/_footer.sass */
+.madeby {
+  margin: 3.2em 0 0;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 14px;
+}
+
 /* line 6, ../sass/_content.sass */
 .sectionheader-up {
   text-transform: uppercase;
@@ -63,24 +71,24 @@ img.subheaderimg {
   font-weight: 700;
 }
 
-/* line 32, ../sass/_content.sass */
+/* line 31, ../sass/_content.sass */
 .newslettersection {
   margin: 1em 0 0.8em;
 }
 
-/* line 35, ../sass/_content.sass */
+/* line 34, ../sass/_content.sass */
 .cta {
   border-bottom: 4px solid #d9534f;
   padding-bottom: 15px;
   margin-bottom: 2em;
 }
 
-/* line 40, ../sass/_content.sass */
+/* line 39, ../sass/_content.sass */
 .emailicon {
   padding-right: 1.6em;
 }
 
-/* line 43, ../sass/_content.sass */
+/* line 42, ../sass/_content.sass */
 .mailchimp_email {
   height: 2.4em;
   width: 40%;
@@ -90,7 +98,7 @@ img.subheaderimg {
   border: 1px solid #999999;
 }
 
-/* line 51, ../sass/_content.sass */
+/* line 50, ../sass/_content.sass */
 input.mailchimp_submit {
   background: #d9534f;
   color: white;
@@ -98,7 +106,7 @@ input.mailchimp_submit {
   border-radius: 2px;
   font-weight: 700;
 }
-/* line 58, ../sass/_content.sass */
+/* line 57, ../sass/_content.sass */
 input.mailchimp_submit:hover, input.mailchimp_submit:focus {
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
@@ -108,48 +116,49 @@ input.mailchimp_submit:hover, input.mailchimp_submit:focus {
   color: white;
 }
 
-/* line 70, ../sass/_content.sass */
+/* line 69, ../sass/_content.sass */
 img.contentimg {
   max-width: 100%;
   padding: 0.8em 0;
 }
 
-/* line 75, ../sass/_content.sass */
+/* line 74, ../sass/_content.sass */
 .motto {
   font-weight: 700;
   text-align: left;
   padding: 0.4em 0;
 }
 
-/* line 80, ../sass/_content.sass */
+/* line 81, ../sass/_content.sass */
 .sidebar {
   margin: 2.3em 0 0;
   padding: 0 1em 0 0;
 }
 
-/* line 84, ../sass/_content.sass */
+/* line 85, ../sass/_content.sass */
 .sidenav {
   list-style-type: none;
   font-size: 16px;
   line-height: 1.4em;
 }
-/* line 89, ../sass/_content.sass */
+/* line 90, ../sass/_content.sass */
 .sidenav li.active {
   font-weight: 700;
 }
-/* line 92, ../sass/_content.sass */
+/* line 93, ../sass/_content.sass */
 .sidenav li.active:before {
   content: "";
 }
-/* line 95, ../sass/_content.sass */
+/* line 96, ../sass/_content.sass */
 .sidenav li {
   margin: 0 0 0.8em;
   border-bottom: 1px solid #eeeeee;
   padding: 0.3em 0.2em;
 }
-/* line 100, ../sass/_content.sass */
+/* line 101, ../sass/_content.sass */
 .sidenav li:hover, .sidenav li:active {
-  background: #eeeeee;
+  background: #0f476c;
+  color: white;
 }
 
 /* line 2, ../sass/_navbar.sass */
@@ -216,7 +225,7 @@ img.logo {
     color: white;
   }
 
-  /* line 47, ../sass/_navbar.sass */
+  /* line 46, ../sass/_navbar.sass */
   .navbar {
     -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
     -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
@@ -224,7 +233,7 @@ img.logo {
     opacity: 0.95;
   }
 
-  /* line 56, ../sass/_navbar.sass */
+  /* line 55, ../sass/_navbar.sass */
   ul.nav li a.btn-navbar {
     background: #1e8cd5;
     color: white;
@@ -232,7 +241,7 @@ img.logo {
     margin: 2px 0 0 1.6em;
     border-radius: 2px;
   }
-  /* line 63, ../sass/_navbar.sass */
+  /* line 62, ../sass/_navbar.sass */
   ul.nav li a.btn-navbar:hover, ul.nav li a.btn-navbar:focus {
     -webkit-transition: all 0s;
     -moz-transition: all 0s;
@@ -242,7 +251,7 @@ img.logo {
   }
 }
 @media screen and (max-width: 991px) {
-  /* line 69, ../sass/_navbar.sass */
+  /* line 68, ../sass/_navbar.sass */
   .navbar-no-collapse {
     padding-top: 2em;
     margin: 0 -15px;
