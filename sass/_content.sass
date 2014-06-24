@@ -79,7 +79,7 @@ img.contentimg
 
 // Sidebar menu styling
 .sidebar
-  margin:             2.3em 0 0
+  margin:             2.3em 0 0 -2.8em
   padding:            0 1em 0 0
 
 .sidenav
@@ -89,9 +89,11 @@ img.contentimg
 
   li.active
     font-weight:      700
+    border-bottom:    1px solid $gray-dark
 
-    &:before
-      content:        ''
+    &::before
+      content:        '»'
+      padding-right:  6px
 
   li 
     margin:           0 0 0.8em
@@ -101,3 +103,6 @@ img.contentimg
     &:hover,
     &:active
       +linkhover
+      border-bottom:  1px solid $white
+
+  

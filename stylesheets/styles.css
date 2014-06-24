@@ -1,3 +1,4 @@
+@charset "CP850";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700,600);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
 /* line 2, ../sass/_footer.sass */
@@ -131,7 +132,7 @@ img.contentimg {
 
 /* line 81, ../sass/_content.sass */
 .sidebar {
-  margin: 2.3em 0 0;
+  margin: 2.3em 0 0 -2.8em;
   padding: 0 1em 0 0;
 }
 
@@ -144,21 +145,24 @@ img.contentimg {
 /* line 90, ../sass/_content.sass */
 .sidenav li.active {
   font-weight: 700;
+  border-bottom: 1px solid #141414;
 }
-/* line 93, ../sass/_content.sass */
-.sidenav li.active:before {
-  content: "";
+/* line 94, ../sass/_content.sass */
+.sidenav li.active::before {
+  content: "»";
+  padding-right: 6px;
 }
-/* line 96, ../sass/_content.sass */
+/* line 98, ../sass/_content.sass */
 .sidenav li {
   margin: 0 0 0.8em;
   border-bottom: 1px solid #eeeeee;
   padding: 0.3em 0.2em;
 }
-/* line 101, ../sass/_content.sass */
+/* line 103, ../sass/_content.sass */
 .sidenav li:hover, .sidenav li:active {
   background: #0f476c;
   color: white;
+  border-bottom: 1px solid white;
 }
 
 /* line 2, ../sass/_navbar.sass */
