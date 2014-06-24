@@ -27,6 +27,14 @@ img.subheaderimg
 .contentlink
   font-weight:  700
 
+.infotext
+  margin:       0 0 2em 0
+
+#impressum,
+#advisoryboard,
+#satzung
+  margin:       2em 0 11em
+
 // Newsletter section
 .newslettersection
   margin:           1em 0 0.8em
@@ -76,6 +84,14 @@ img.contentimg
   text-align:         left
   padding:            0.4em 0
 
+.profile
+  margin:             3em 0 0
+
+.profile_a
+  margin:             0
+
+
+
 
 // Sidebar menu styling
 .sidebar
@@ -98,11 +114,21 @@ img.contentimg
   li 
     margin:           0 0 0.8em
     border-bottom:    1px solid $gray-lighter
-    padding:          0.3em 0.2em
+    padding:          0.5em 0.4em
 
     &:hover,
     &:active
       +linkhover
       border-bottom:  1px solid $white
+      border-radius:  2px
 
-  
+
+@media screen and (max-width: $screen-sm-max)
+  .profile
+    text-align:       center
+    margin:           2em 0 3em
+
+  #impressum,
+  #advisoryboard,
+  #satzung
+    margin-bottom:       2em   
