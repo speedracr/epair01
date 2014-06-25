@@ -91,9 +91,40 @@ img.contentimg
   margin:             0
 
 
+a.downloadlink
+  padding:            2px 6px
+  font-weight:        700
+
+  &::after
+    content:          "(PDF)"
+    font-size:        8px
+    padding:          0 0 0 6px
+
+  &:hover,
+  &:active
+    border-bottom:    2px solid $brand-primary
+
+.partnerentry
+  margin:             1em 0
+
+img.partnerlogo
+  margin:             1.6em 0 0
+  max-width:          100%
+  border:             1px solid $gray-light
+  border-radius:      2px
+
+.partnertext
+  margin:             1.8em 0 0 0
+
+h4.partnername
+  margin:           2em 0 0 0
+  font-weight:      700
 
 
-// Sidebar menu styling
+// *******
+// SIDEBAR
+// *******
+
 .sidebar
   margin:             2.3em 0 0 -2.8em
   padding:            0 1em 0 0
@@ -124,7 +155,8 @@ img.contentimg
 
 
 @media screen and (max-width: $screen-sm-max)
-  .profile
+  .profile,
+  .profile_a
     text-align:       center
     margin:           2em 0 3em
 
@@ -132,3 +164,8 @@ img.contentimg
   #advisoryboard,
   #satzung
     margin-bottom:       2em   
+
+
+@media screen and (min-width: $screen-md)
+  p.entry
+    text-align:         left

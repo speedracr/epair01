@@ -1,6 +1,15 @@
 @charset "CP850";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700,600);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+@font-face {
+  font-family: "Glyphicons Halflings";
+  src: url(http://www.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot);
+  src: url(http://www.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype");
+  src: url(http://www.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.woff) format("woff");
+  src: url(http://www.bootstrapcdn.com/bootstrap/3.0.0/fonts//glyphicons-halflings-regular.ttf) format("truetype");
+  src: url(http://www.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg");
+}
+
 /* line 2, ../sass/_footer.sass */
 footer {
   padding: 2em 0 0.4em;
@@ -152,35 +161,75 @@ img.contentimg {
   margin: 0;
 }
 
-/* line 97, ../sass/_content.sass */
+/* line 94, ../sass/_content.sass */
+a.downloadlink {
+  padding: 2px 6px;
+  font-weight: 700;
+}
+/* line 98, ../sass/_content.sass */
+a.downloadlink::after {
+  content: "(PDF)";
+  font-size: 8px;
+  padding: 0 0 0 6px;
+}
+/* line 103, ../sass/_content.sass */
+a.downloadlink:hover, a.downloadlink:active {
+  border-bottom: 2px solid #186fa8;
+}
+
+/* line 107, ../sass/_content.sass */
+.partnerentry {
+  margin: 1em 0;
+}
+
+/* line 110, ../sass/_content.sass */
+img.partnerlogo {
+  margin: 1.6em 0 0;
+  max-width: 100%;
+  border: 1px solid #999999;
+  border-radius: 2px;
+}
+
+/* line 116, ../sass/_content.sass */
+.partnertext {
+  margin: 1.8em 0 0 0;
+}
+
+/* line 119, ../sass/_content.sass */
+h4.partnername {
+  margin: 2em 0 0 0;
+  font-weight: 700;
+}
+
+/* line 128, ../sass/_content.sass */
 .sidebar {
   margin: 2.3em 0 0 -2.8em;
   padding: 0 1em 0 0;
 }
 
-/* line 101, ../sass/_content.sass */
+/* line 132, ../sass/_content.sass */
 .sidenav {
   list-style-type: none;
   font-size: 16px;
   line-height: 1.4em;
 }
-/* line 106, ../sass/_content.sass */
+/* line 137, ../sass/_content.sass */
 .sidenav li.active {
   font-weight: 700;
   border-bottom: 1px solid #141414;
 }
-/* line 110, ../sass/_content.sass */
+/* line 141, ../sass/_content.sass */
 .sidenav li.active::before {
   content: "»";
   padding-right: 6px;
 }
-/* line 114, ../sass/_content.sass */
+/* line 145, ../sass/_content.sass */
 .sidenav li {
   margin: 0 0 0.8em;
   border-bottom: 1px solid #eeeeee;
   padding: 0.5em 0.4em;
 }
-/* line 119, ../sass/_content.sass */
+/* line 150, ../sass/_content.sass */
 .sidenav li:hover, .sidenav li:active {
   background: #0f476c;
   color: white;
@@ -189,17 +238,24 @@ img.contentimg {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 127, ../sass/_content.sass */
-  .profile {
+  /* line 158, ../sass/_content.sass */
+  .profile,
+  .profile_a {
     text-align: center;
     margin: 2em 0 3em;
   }
 
-  /* line 131, ../sass/_content.sass */
+  /* line 163, ../sass/_content.sass */
   #impressum,
   #advisoryboard,
   #satzung {
     margin-bottom: 2em;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 170, ../sass/_content.sass */
+  p.entry {
+    text-align: left;
   }
 }
 /* line 2, ../sass/_navbar.sass */

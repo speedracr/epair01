@@ -2,6 +2,15 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700,600)
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700)
 
+@font-face
+  font-family: 'Glyphicons Halflings'
+  src:  url(http://www.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot)
+  src:  url(http://www.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype')
+  src:  url(http://www.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.woff) format('woff')
+  src:  url(http://www.bootstrapcdn.com/bootstrap/3.0.0/fonts//glyphicons-halflings-regular.ttf) format('truetype')
+  src:  url(http://www.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
+
+
 // Override Bootstrap variables here (defaults from bootstrap-sass v3.1.1.1):
 
 // a flag to toggle asset pipeline / compass integration
@@ -112,7 +121,7 @@ $line-height-computed:    floor(($font-size-base * $line-height-base)) // ~20px
 //## Specify custom location and filename of the included Glyphicons icon font. Useful for those including Bootstrap via Bower.
 
 //* Load fonts from this directory.
-// $icon-font-path: "bootstrap/"
+$icon-font-path: "bootstrap/"
 //* File name for all font files.
 // $icon-font-name:          "glyphicons-halflings-regular"
 //* Element ID within SVG icon file.
