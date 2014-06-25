@@ -18,26 +18,31 @@ footer {
 }
 
 /* line 7, ../sass/_footer.sass */
+dt {
+  color: #999999;
+}
+
+/* line 10, ../sass/_footer.sass */
 footer a {
   color: #999999;
 }
-/* line 10, ../sass/_footer.sass */
+/* line 13, ../sass/_footer.sass */
 footer a:hover, footer a:focus {
   color: white;
 }
 
-/* line 14, ../sass/_footer.sass */
+/* line 17, ../sass/_footer.sass */
 img.logotype {
   margin: 2em 0 1em;
   width: 120px;
 }
 
-/* line 18, ../sass/_footer.sass */
+/* line 21, ../sass/_footer.sass */
 dd {
   margin: 3px 0;
 }
 
-/* line 21, ../sass/_footer.sass */
+/* line 24, ../sass/_footer.sass */
 .madeby {
   margin: 3.2em 0 0;
   text-align: right;
@@ -161,28 +166,12 @@ img.contentimg {
   margin: 0;
 }
 
-/* line 94, ../sass/_content.sass */
-a.downloadlink {
-  padding: 2px 6px;
-  font-weight: 700;
-}
-/* line 98, ../sass/_content.sass */
-a.downloadlink::after {
-  content: "(PDF)";
-  font-size: 8px;
-  padding: 0 0 0 6px;
-}
-/* line 103, ../sass/_content.sass */
-a.downloadlink:hover, a.downloadlink:active {
-  border-bottom: 2px solid #186fa8;
-}
-
-/* line 107, ../sass/_content.sass */
+/* line 93, ../sass/_content.sass */
 .partnerentry {
   margin: 1em 0;
 }
 
-/* line 110, ../sass/_content.sass */
+/* line 96, ../sass/_content.sass */
 img.partnerlogo {
   margin: 1.6em 0 0;
   max-width: 100%;
@@ -190,46 +179,46 @@ img.partnerlogo {
   border-radius: 2px;
 }
 
-/* line 116, ../sass/_content.sass */
+/* line 102, ../sass/_content.sass */
 .partnertext {
   margin: 1.8em 0 0 0;
 }
 
-/* line 119, ../sass/_content.sass */
+/* line 105, ../sass/_content.sass */
 h4.partnername {
   margin: 2em 0 0 0;
   font-weight: 700;
 }
 
-/* line 128, ../sass/_content.sass */
+/* line 114, ../sass/_content.sass */
 .sidebar {
   margin: 2.3em 0 0 -2.8em;
   padding: 0 1em 0 0;
 }
 
-/* line 132, ../sass/_content.sass */
+/* line 118, ../sass/_content.sass */
 .sidenav {
   list-style-type: none;
   font-size: 16px;
   line-height: 1.4em;
 }
-/* line 137, ../sass/_content.sass */
+/* line 123, ../sass/_content.sass */
 .sidenav li.active {
   font-weight: 700;
   border-bottom: 1px solid #141414;
 }
-/* line 141, ../sass/_content.sass */
+/* line 127, ../sass/_content.sass */
 .sidenav li.active::before {
   content: "»";
   padding-right: 6px;
 }
-/* line 145, ../sass/_content.sass */
+/* line 131, ../sass/_content.sass */
 .sidenav li {
   margin: 0 0 0.8em;
   border-bottom: 1px solid #eeeeee;
   padding: 0.5em 0.4em;
 }
-/* line 150, ../sass/_content.sass */
+/* line 136, ../sass/_content.sass */
 .sidenav li:hover, .sidenav li:active {
   background: #0f476c;
   color: white;
@@ -238,14 +227,14 @@ h4.partnername {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 158, ../sass/_content.sass */
+  /* line 144, ../sass/_content.sass */
   .profile,
   .profile_a {
     text-align: center;
     margin: 2em 0 3em;
   }
 
-  /* line 163, ../sass/_content.sass */
+  /* line 149, ../sass/_content.sass */
   #impressum,
   #advisoryboard,
   #satzung {
@@ -253,7 +242,7 @@ h4.partnername {
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 170, ../sass/_content.sass */
+  /* line 156, ../sass/_content.sass */
   p.entry {
     text-align: left;
   }
@@ -8290,11 +8279,21 @@ body a:hover, body a:focus {
 }
 
 /* line 23, ../sass/styles.sass */
-.alpha {
-  padding-left: 0;
+a.downloadlink {
+  font-weight: 700;
+}
+/* line 26, ../sass/styles.sass */
+a.downloadlink::after {
+  content: "(PDF)";
+  font-size: 8px;
+  padding: 0 0 0 6px;
+}
+/* line 31, ../sass/styles.sass */
+a.downloadlink:hover, a.downloadlink:active {
+  border-bottom: 2px solid #186fa8;
 }
 
-/* line 27, ../sass/styles.sass */
+/* line 37, ../sass/styles.sass */
 .hero {
   position: relative;
   overflow: hidden;
@@ -8306,7 +8305,7 @@ body a:hover, body a:focus {
   border-bottom: 8px solid #186fa8;
 }
 @media (min-width: 992px) {
-  /* line 27, ../sass/styles.sass */
+  /* line 37, ../sass/styles.sass */
   .hero {
     padding: 16em 0;
     background: url("../img/hero.jpg") no-repeat 0 -16px;
@@ -8314,7 +8313,7 @@ body a:hover, body a:focus {
   }
 }
 
-/* line 44, ../sass/styles.sass */
+/* line 54, ../sass/styles.sass */
 .pagetop {
   padding: 4em 0;
   background: url("../img/hero.jpg") no-repeat 0 0;
@@ -8322,7 +8321,7 @@ body a:hover, body a:focus {
   border-bottom: 8px solid #186fa8;
 }
 
-/* line 51, ../sass/styles.sass */
+/* line 61, ../sass/styles.sass */
 .boxwrapper {
   margin-top: -3em;
   background: rgba(255, 255, 255, 0.9);
@@ -8330,12 +8329,12 @@ body a:hover, body a:focus {
   padding-right: 0;
 }
 
-/* line 57, ../sass/styles.sass */
+/* line 67, ../sass/styles.sass */
 .insetbox {
   padding: 0.6em 0.6em 0.6em 0;
   border-bottom: #141414 1px solid;
 }
-/* line 62, ../sass/styles.sass */
+/* line 72, ../sass/styles.sass */
 .insetbox h2 {
   color: #141414;
   padding: 0 1.2em 0 0;
@@ -8345,7 +8344,7 @@ body a:hover, body a:focus {
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
 }
 
-/* line 70, ../sass/styles.sass */
+/* line 80, ../sass/styles.sass */
 figcaption {
   position: absolute;
   bottom: 4px;
@@ -8355,37 +8354,37 @@ figcaption {
   padding: 0.1em 0.5em;
   background: rgba(0, 0, 0, 0.1);
 }
-/* line 79, ../sass/styles.sass */
+/* line 89, ../sass/styles.sass */
 figcaption a {
   color: rgba(255, 255, 255, 0.9);
 }
-/* line 81, ../sass/styles.sass */
+/* line 91, ../sass/styles.sass */
 figcaption a:hover, figcaption a:focus {
   color: white;
 }
 
-/* line 85, ../sass/styles.sass */
+/* line 95, ../sass/styles.sass */
 .attribution {
   margin: 2em 0 1em;
 }
 
-/* line 88, ../sass/styles.sass */
+/* line 98, ../sass/styles.sass */
 .caption {
   font-size: 12px;
   text-align: right;
 }
 
-/* line 92, ../sass/styles.sass */
+/* line 102, ../sass/styles.sass */
 .header {
   margin: 1.8em 0 0.6em;
 }
 
-/* line 95, ../sass/styles.sass */
+/* line 105, ../sass/styles.sass */
 .link {
   margin: 2em 0;
   text-align: center;
 }
-/* line 98, ../sass/styles.sass */
+/* line 108, ../sass/styles.sass */
 .link a {
   padding: 0.6em 3.2em;
   text-transform: uppercase;
@@ -8397,7 +8396,7 @@ figcaption a:hover, figcaption a:focus {
   -o-transition: all 0s;
   transition: all 0s;
 }
-/* line 107, ../sass/styles.sass */
+/* line 117, ../sass/styles.sass */
 .link a:hover, .link a:active {
   background: #186fa8;
   color: white;

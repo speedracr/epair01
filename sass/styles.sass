@@ -20,8 +20,18 @@ body a
 .caret
   margin-top:       -3px
 
-.alpha
-  padding-left:     0
+a.downloadlink
+  font-weight:        700
+
+  &::after
+    content:          "(PDF)"
+    font-size:        8px
+    padding:          0 0 0 6px
+
+  &:hover,
+  &:active
+    border-bottom:    2px solid $brand-primary
+
 
 // Hero section
 .hero
