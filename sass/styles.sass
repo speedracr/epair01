@@ -7,6 +7,10 @@
 
 
 // General settings and overrides
+
+container
+  max-width:        100%
+
 $body-bg: #ecf0f1
 body a
   +transition($transition1)
@@ -40,6 +44,7 @@ a.downloadlink
   padding:          12em 0
   color:            $text-color-inverse
   min-height:       4em
+  z-index:          10
 
   background:       url('../img/hero.jpg') no-repeat 0 0
   background-size:  cover
@@ -48,7 +53,7 @@ a.downloadlink
 
   +media-md
     padding: 16em 0
-    background: url('../img/hero.jpg') no-repeat 0 7px
+    background: url('../img/hero.jpg') no-repeat 0 0
     background-size: cover
 
 .pagetop
@@ -63,6 +68,7 @@ a.downloadlink
   background:     rgba(255, 255, 255, 0.9)  
   padding-left:   2.6em
   padding-right:  0
+  z-index:        200
 
 .insetbox
   padding:        0.6em 0.6em 0.6em 0
